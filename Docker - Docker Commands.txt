@@ -1,0 +1,53 @@
+Hub : docker run -d -p 4446:4444 --name selenium-hub -P selenium/hub
+
+Node 1: docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug
+
+Node 2: 
+
+
+docker run -d -p 5900:5900 --link selenium-hub:hub -v /dev/shm:/dev/shm selenium/node-chrome-debug
+
+-- Do'nt use this Node 2: docker run –d –P --link selenium-hub:hub selenium/standalone-chrome-debug:3.6.0-bromine
+
+Jenkins running command
+
+docker run -p 8080:8080 -p 50000:50000 jenkins
+
+http://localhost:8080/
+
+
+Misc Commands:
+
+1) To view the logs
+
+$ docker logs 'containerid'
+
+2) To know the configuration
+
+$ docker config 'containerid'
+
+3) To stop all the containers at one go  Note: Both 'stop' and 'rm' commands will only work in Windows powershell window not in normal command window.
+
+docker stop $(docker ps -q)
+
+4) To remove all the containers at one go
+
+$docker rm $(docker ps -q) or use $docker container prune
+
+
+
+ http://localhost:4446/grid/console  or http://172.25.167.65:4446/grid/console or change the port to 4444
+
+http://172.18.48.1:4444/grid/console---working
+
+127.0.0.1:32768
+
+127.0.0.1:5900
+
+vnc password: secret
+
+>docker-compose down
+
+>docker-compose config
+
+> docker-compose up -d
