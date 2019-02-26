@@ -1,0 +1,24 @@
+To generate the reports
+to reduce manual reports
+compabality testing on diffent machies,operatin system, different browsers
+
+more reliable/accurate
+mostly used for regression for happy path scenarios to save time
+minimum human interactions is reqired
+
+unattended test script execution
+increases test coverage
+to generate test data
+
+----------
+
+how many test cases per day -- depends upon complexity
+
+what is framework: Systemtaci approach of different components like testng,maven,confoguration ,pom which do their own each function
+
+why selenium:multi langugae support, multi browser,multi platform,great community support, free, easuly integrated with othe tools such as mavenm testng etc., cloud support like browserstack, sauce labs
+
+Different compontts of selenium
+IDE,RC,webdriver,Selenium grid
+
+
