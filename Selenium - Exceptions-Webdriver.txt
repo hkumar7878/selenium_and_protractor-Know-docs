@@ -1,0 +1,23 @@
+1.ElementNotSelectableException
+
+2.ElementNotVisibleException :  This exception is thrown when the element is present in DOM (Document Object Model), but not visible on the web page.
+
+3.NoSuchElementException : This exception is thrown when an element with given attributes is not found on the web page. 
+
+4.Nosuchattribute 
+
+5.UnreachableBrowserException 
+
+6.WebDriverException  This Exception occurs when the driver is performing the action after immediately closing the browser.
+
+7.TimeoutException : This exception is thrown when the command performing the action does not complete in stipulated time frame.
+
+8.NoSuchWindowException
+
+9.NoSuchFrameException
+
+10.Stale Element Reference Exception: This exception is thrown when the element is either deleted or no longer attached to the DOM.
+11.java.lang.NoSuchFieldError: when using differtnusing a different version of the JAR which
+12: org.openqa.selenium.InvalidSelectorException:When xpath syntax is not correct
+13: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (88, 679): This exceptiong genrally occurs as element does not come into
+view. Solution is to use javascript exceutor's scrollintoview method.
