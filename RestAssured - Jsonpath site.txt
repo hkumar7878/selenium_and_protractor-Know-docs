@@ -1,0 +1,3 @@
+http://goessner.net/articles/JsonPath/index.html#e2
+
+To calculate and extract json element  : https://jsonpath.curiousconcept.com/

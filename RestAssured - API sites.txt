@@ -1,0 +1,22 @@
+http://parabank.parasoft.com/parabank/services
+
+http://parabank.parasoft.com/parabank/services/bank/customers/12212/
+https://openweathermap.org/current
+
+https://reqres.in/
+
+Rest API Online Practice Examples:
++ https://reqres.in/
+
++ http://www.groupkt.com/post/c9b0ccb9/...
+
++ Swagger API Doc: 
+http://fakerestapi.azurewebsites.net/...
+
++https://resttesttest.com/
+
+http://www.dummyapi.xyz/Apidoc1
+
+http://restcountries.eu/
+
+open weather: https://samples.openweathermap.org/

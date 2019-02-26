@@ -1,0 +1,5 @@
+https://swapi.co/
+https://swapi.co/api/
+
+
+https://www.programmableweb.com/category/all/apis
